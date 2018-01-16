@@ -78,20 +78,19 @@ rm -rf project
 # ../tool/.build/release/swift-power-assert --verbose xctest -Xxcodebuild test -project "JSQDataSourcesKit.xcodeproj" -scheme "JSQDataSourcesKitTests"  -destination "platform=iOS Simulator,name=iPhone 6s"
 # cd ..
 # rm -rf project
-#
-# git clone --recursive https://github.com/lyft/Kronos.git project
-# cd project
-# ../tool/.build/release/swift-power-assert --verbose test -Xswift test
-# cd ..
-# rm -rf project
 
-# git clone --recursive https://github.com/Bouke/Lark.git project
-# cd project
-# ../tool/.build/release/swift-power-assert --verbose test -Xswift test
-# ../tool/.build/release/swift-power-assert --verbose test -Xswift test
-# cd ..
-# rm -rf project
-#
+git clone --recursive https://github.com/lyft/Kronos.git project
+cd project
+../tool/.build/release/swift-power-assert --verbose test -Xswift test
+cd ..
+rm -rf project
+
+git clone --recursive https://github.com/Bouke/Lark.git project
+cd project
+../tool/.build/release/swift-power-assert --verbose test -Xswift test
+cd ..
+rm -rf project
+
 # git clone --recursive https://github.com/Moya/Moya.git project
 # cd project
 # ../tool/.build/release/swift-power-assert --verbose test -Xswift test
