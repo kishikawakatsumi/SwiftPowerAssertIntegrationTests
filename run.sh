@@ -19,11 +19,11 @@ rm -rf project
 # cd ..
 # rm -rf project
 
-git clone --recursive https://github.com/igor-makarov/BeaconKit.git project
-cd project
-../tool/.build/release/swift-power-assert --verbose test -Xswift test -c debug
-cd ..
-rm -rf project
+# git clone --recursive https://github.com/igor-makarov/BeaconKit.git project
+# cd project
+# ../tool/.build/release/swift-power-assert --verbose test -Xswift test -c debug
+# cd ..
+# rm -rf project
 
 git clone --recursive https://github.com/badoo/Chatto.git project
 cd project
