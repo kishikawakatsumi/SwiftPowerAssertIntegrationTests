@@ -1,0 +1,13 @@
+language: objective-c
+script:
+- run.sh
+matrix:
+  include:
+  - osx_image: xcode9.2
+env:
+  global:
+  - LANG=en_US.UTF-8
+  - LC_ALL=en_US.UTF-8
+branches:
+  only:
+  - master
