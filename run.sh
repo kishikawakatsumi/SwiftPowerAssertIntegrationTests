@@ -2,7 +2,7 @@
 set -ex
 export NSUnbufferedIO=YES
 
-git clone git@github.com:kishikawakatsumi/SwiftPowerAssert.git tool
+git clone https://github.com/kishikawakatsumi/SwiftPowerAssert.git tool
 cd tool
 swift build -c release
 cd ..
